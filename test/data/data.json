@@ -1,0 +1,23 @@
+{
+    "API_BASE_URL_V1": "https://api.hellobetter.de/api/v1/",
+    "API_BASE_URL_V2": "https://api.hellobetter.de/api/v2/",
+
+    "email": "madhusha01@mailinator.com",
+    "password": "1234Hh!!",
+
+    "sample_test_date_1": "10/February/2022",
+    "sample_test_date_2": "11/February/2022",
+    "sample_test_date_3": "12/February/2022",
+    "sample_test_date_4": "13/February/2022",
+    "sample_test_date_5": "20/March/2022",
+
+    "sample_mood_index_1": "6",
+    "sample_mood_index_2": "4",
+
+    "sample_stress_index_1": "8",
+    "sample_stress_index_2": "7"
+
+
+
+
+}
