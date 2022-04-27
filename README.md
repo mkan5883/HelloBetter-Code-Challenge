@@ -11,11 +11,16 @@ Scope
 ----
 Project is mainly focusing on the functional features of HelloBetter journal page.
 As this is a case study, automation frame work is not covering the all test cases as in manual testcases.
-Manily test cases cover the happy paths. Negative test cases should be created going foward
+Manily test cases cover the happy paths. Negative test cases should be created going foward.
 
 Assumptions
 ----
 Framework should be developed to integrate both UI and API functionalities.
+As this is a case study there may be arear code can optimize futher.
+
+Limitations
+----
+Browser is getting up when running API test.
 
 Technologies
 ----

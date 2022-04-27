@@ -2,12 +2,12 @@ const LoginPage = require('../pageobjects/login.page');
 const JournalPage = require('../pageobjects/journal_page');
 const JournalEntryPage = require('../pageobjects/journal_entry_page');
 import testData from "../data/data.json";
-const {deleteAllJournals
-} = require('../helper/helper')
+const { deleteAllJournals
+} = require('../helper/api_helper')
 
 //TODO: These test cases cover the main functinalities of the journal feature. We should improve the test cases with validation of page elements as well.
 describe('My Journal Page', () => {
-    before( async () => {
+    before(async () => {
         /**
         * Api call for Delete All journals before the test
         */

@@ -9,48 +9,48 @@ class JournalPage extends Page {
     /**
      * define selectors using getter methods
      */
-    get btnJournal () {
+    get btnJournal() {
         return $('a[aria-label="Navigate to Journal page"]');
     }
 
-    get btnAddNew () {
+    get btnAddNew() {
         return $('//a[text()="Add new"]')
     }
 
-    get btnCreateNewJournal () {
+    get btnCreateNewJournal() {
         return $('//a[text()= "Create journal entry"]')
     }
 
-    journalEntryBox (date) {
+    journalEntryBox(date) {
         date = DateUtills.splitDate(date);
         const exDay = date[0];
         const exMonth = date[1];
         const exYear = date[2];
-        return $('//p[contains(text(),"'+exMonth+''+" "+''+exDay+'") and contains(text(),"'+exYear+'") ]/parent::div');
+        return $('//p[contains(text(),"' + exMonth + '' + " " + '' + exDay + '") and contains(text(),"' + exYear + '") ]/parent::div');
     }
 
-    txtmood (date) {
+    txtmood(date) {
         date = DateUtills.splitDate(date);
         const exDay = date[0];
         const exMonth = date[1];
         const exYear = date[2];
-        return $('//p[contains(text(),"'+exMonth+''+" "+''+exDay+'") and contains(text(),"'+exYear+'") ]/parent::div/following-sibling::div[1]/div/p')
+        return $('//p[contains(text(),"' + exMonth + '' + " " + '' + exDay + '") and contains(text(),"' + exYear + '") ]/parent::div/following-sibling::div[1]/div/p')
     }
 
-    txtstress (date) {
+    txtstress(date) {
         date = DateUtills.splitDate(date);
         const exDay = date[0];
         const exMonth = date[1];
         const exYear = date[2];
-        return $('//p[contains(text(),"'+exMonth+''+" "+''+exDay+'") and contains(text(),"'+exYear+'") ]/parent::div/following-sibling::div[2]/div/p')
+        return $('//p[contains(text(),"' + exMonth + '' + " " + '' + exDay + '") and contains(text(),"' + exYear + '") ]/parent::div/following-sibling::div[2]/div/p')
     }
 
-    btnEdit (date) {
+    btnEdit(date) {
         date = DateUtills.splitDate(date);
         const exDay = date[0];
         const exMonth = date[1];
         const exYear = date[2];
-        return $('//p[contains(text(),"'+exMonth+''+" "+''+exDay+'") and contains(text(),"'+exYear+'") ]/parent::div/div/button')
+        return $('//p[contains(text(),"' + exMonth + '' + " " + '' + exDay + '") and contains(text(),"' + exYear + '") ]/parent::div/div/button')
     }
 
 }

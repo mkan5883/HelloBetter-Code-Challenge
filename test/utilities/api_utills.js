@@ -19,5 +19,5 @@ export const createAccessToken = async () => {
         .send(data)
         .set("Content-Type", "application/json");
 
-  return res.body.accessToken;
+    return res.body.accessToken;
 };

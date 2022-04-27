@@ -11,11 +11,14 @@
     "sample_test_date_4": "13/February/2022",
     "sample_test_date_5": "20/March/2022",
 
-    "sample_mood_index_1": "6",
-    "sample_mood_index_2": "4",
+    "sample_test_date_for_api_1": "2022-01-20",
+    "sample_test_date_for_api_2": "2022-02-20",
 
-    "sample_stress_index_1": "8",
-    "sample_stress_index_2": "7"
+    "sample_mood_index_1": 6,
+    "sample_mood_index_2": 4,
+
+    "sample_stress_index_1": 8,
+    "sample_stress_index_2": 7
 
 
 
