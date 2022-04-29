@@ -24,13 +24,14 @@ Browser is getting up when running API test.
 
 Technologies
 ----
-1. Node.js
-2. WebdriverIO
-3. JavaScript
-4. Mocha framework
-5. chai
-6. babel
-7. supertest
+1. VS code
+2. Node.js
+3. WebdriverIO
+4. JavaScript
+5. Mocha framework
+6. chai
+7. babel
+8. supertest
 
 Configuration
 ----
